@@ -1,0 +1,20 @@
+$background-color: #fff;
+$border-color: #1ea5f7;
+$hover-color: lightcoral;
+$text-color: #000;
+$heading-color: #ff5443;
+
+
+
+
+@mixin mybtn {
+    display: inline-block;
+    padding: 8px 22px;
+    color: $background-color;
+    background-color: $border-color;
+    border: 1px solid transparent;
+    margin-top: 60px;
+    text-decoration: none;
+    transition: .5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    
+}
